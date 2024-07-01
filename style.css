@@ -192,4 +192,8 @@ a:hover {
     body{
         padding: 1rem 2rem;
     }
+
+    .card{
+        width: 80vw;
+    }
 }
