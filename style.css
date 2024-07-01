@@ -1,0 +1,93 @@
+
+
+:root{
+    --cor-fundo: #0D192C;
+    --cor-fundo-card: #15263F;
+    --cor-clara: #8BACD9;
+    --cor-detalhe: #00FFF8;
+    --cor-geral: #FFFFFF;
+    --cor-borda: #2E405A;
+
+    --fonte-principal: "Outfit", sans-serif;
+    --light: 300;
+    --regular: 400;
+    --semibold: 600;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-geral);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nft-img{
+    border-radius: 8px;
+}
+
+.perfil-img{
+    text-align: center;
+    width: 2em;
+    height: 2em;
+}
+
+.img-perfil{
+    border-radius: 100%;
+    border: 2px solid var(--cor-geral);
+    width: 100%;
+}
+
+.card{
+    background-color: var(--cor-fundo-card);
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 1.5rem 1.5rem 2rem 1.5rem;
+    justify-content: center;
+    width: 19rem;
+}
+
+.card__titulo{
+    margin: 1.5rem  0 1rem 0;
+    font-size: 22px;
+    font-weight: var(--semibold);
+}
+
+.card__descricao{
+    font-size: 18px;
+}
+
+.card__info{
+    margin: 1.5em 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__info-detalhes, .card__info-time{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.detalhes__valor{
+    color: var(--cor-detalhe);
+    font-weight: var(--semibold);
+}
+
+.card__descricao, .destaque, .time__left{
+    color: var(--cor-clara);
+}
+
+.usuario{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    border-top: 1px solid #2E405A;
+    padding-top: 1rem;
+}
+
